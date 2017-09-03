@@ -46,6 +46,8 @@ navbar:
     title: About
   - slug: projects
     title: Projects
+  - slug: presentations
+    title: Presentations
   - slug: blog
     title: Blog
 
