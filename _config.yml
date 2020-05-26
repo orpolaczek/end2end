@@ -2,7 +2,7 @@
 permalink: /blog/:year/:title/
 markdown: kramdown
 highlighter: pygments
-plugins: [jekyll-paginate-v2]
+gems: [jekyll-paginate-v2]
 
 pagination:
   enabled: true
@@ -18,36 +18,39 @@ sass:
   style: compressed # expanded
 
 # SEO settings
-title: end2end
-description: "A free Jekyll theme for download"
-keywords: "Jekyll, theme, free, download, SEO, blog, web"
-url: http://nandomoreira.me
-baseurl: "/end2end"
+title: Or Polaczek
+description: "A personal homepage & tech blog by Or Polaczek"
+keywords: "Engineering,Security,Research,VoIP,Asterisk,Selenium,Apple,HomeKit,Mobile,SDKs,Python"
+url: https://orpolaczek.github.io
+baseurl: "/techblog"
 
-google_analytics: UA-52446115-1
-repo: http://github.com/nandomoreirame/end2end
-disqus_shortname: "nandothemes"
-disqus_site_shortname: "nandothemes"
+google_analytics: UA-103804205-1
+repo: https://github.com/orpolaczek
+disqus_shortname: "thoughts-about-tech"
+disqus_site_shortname: "thoughts-about-tech"
 
 # Author settings
 author:
-  name: Fernando Moreira
-  job: Frontend Engineer
-  bio: "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
+  name: Or Polaczek
+  job: Engineering Manager
+  bio: "I'm a tech enthusiast, I love solving complexed problems <br/>
+  and sharing knowledge. This is my homepage :)"
   thumb: /images/author.jpg
-  email: nandomoreira.me@gmail.com
-  url: https://nandomoreira.me/
-  github: https://github.com/nandomoreirame
-  twitter: https://twitter.com/umdevux
-  facebook: https://facebook.com/umdevux
-  linkedin: https://linkedin.com/in/nandomoreirame
+  email: or@polaczek.co.il
+  url: https://orpolaczek.github.io/
+  github: https://github.com/orpolaczek
+  twitter: https://twitter.com/orpolaczek
+  #facebook: https://facebook.com/po
+  linkedin: https://linkedin.com/in/orpolaczek
 
 # navbar pages
 navbar:
   - slug: about
     title: About
-  - slug: icons
-    title: Icons
+  - slug: projects
+    title: Projects
+  - slug: presentations
+    title: Presentations
   - slug: blog
     title: Blog
 
